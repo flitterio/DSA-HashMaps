@@ -1,0 +1,9 @@
+1. -Not all Items are Hashed
+    - only one item for each are returned because there was discrepancy 
+    -capacity is 9 because that is the number of unique keys
+
+2.This functio  makes two HashMaps. map1 will return 20 because that is the most recent value added with the same key, map2 will return 10 because that is the most recent value added with the same key
+
+
+3. unclear what that all means :)
+
