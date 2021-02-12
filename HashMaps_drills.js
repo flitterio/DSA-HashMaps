@@ -40,8 +40,23 @@ function rmDup(string){
 }
 
 //console.log(rmDup('google'));
+function alphabetize_string(str) 
+{
+	
+return str.split('').sort().join('').trim();
 
+}
 function palindrome(string){
+    //check for if there are at least two of each letter but you can have one odd
+    //create hash map using each letter, makes object for each letter
+    //keep track of the count for each letter
+    let pali = new HashMap();
+    //is a in pali already?
+    //if not add a in pali, give it a value of 1
+
+    //if is already in there, value +=1 
+
+    //at end, you will have count for each letter, then you need to check if there are multiples of two of every letter but 1
 
 }
 
@@ -50,7 +65,8 @@ function anagroup(arr){
     const anarr = new HashMap();
     for(let i = 0; i < arr.length; i++){
        // let hashedString = _hashString(arr[i]);
-        anarr.set(arr[i], arr[i])
+       let alpString= alphabetize_string(arr[i])
+        anarr.set(alpString, arr[i])
     }
     return anarr;
 
